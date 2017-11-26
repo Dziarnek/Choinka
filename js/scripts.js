@@ -2,6 +2,7 @@ var treeLayers = 0;
 
 function drawTree(layers) {
     for (var i = 0; i < layers; i++ ) {
+      
         var space = "";
         for (var k = 0; k < (layers - (i + 1)); k++) {
             space += " ";
